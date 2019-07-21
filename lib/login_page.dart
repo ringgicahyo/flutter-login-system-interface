@@ -27,8 +27,9 @@ class _LoginPageState extends State<LoginPage> {
       initialValue: '',
       decoration: InputDecoration(
         hintText: 'Email',
+        labelText: 'Email',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 
@@ -38,8 +39,9 @@ class _LoginPageState extends State<LoginPage> {
       obscureText: true,
       decoration: InputDecoration(
         hintText: 'Password',
+        labelText: 'Password',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 

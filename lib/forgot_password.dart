@@ -25,8 +25,9 @@ class _ForgotPassPageState extends State<ForgotPassPage> {
       initialValue: '',
       decoration: InputDecoration(
         hintText: 'Email',
+        labelText: 'Email',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 

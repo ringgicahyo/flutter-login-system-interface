@@ -25,8 +25,9 @@ class _SignupPageState extends State<SignupPage> {
       initialValue: '',
       decoration: InputDecoration(
         hintText: 'Email',
+        labelText: 'Email',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 
@@ -36,8 +37,9 @@ class _SignupPageState extends State<SignupPage> {
       obscureText: true,
       decoration: InputDecoration(
         hintText: 'Password',
+        labelText: 'Password',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 
@@ -47,8 +49,9 @@ class _SignupPageState extends State<SignupPage> {
       obscureText: true,
       decoration: InputDecoration(
         hintText: 'Confirm Password',
+        labelText: 'Confirm Password',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 
@@ -58,8 +61,9 @@ class _SignupPageState extends State<SignupPage> {
       initialValue: '',
       decoration: InputDecoration(
         hintText: 'Fullname',
+        labelText: 'Fullname',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 
@@ -68,8 +72,9 @@ class _SignupPageState extends State<SignupPage> {
       initialValue: '',
       decoration: InputDecoration(
         hintText: 'Birthday',
+        labelText: 'Birthday',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 
@@ -78,8 +83,9 @@ class _SignupPageState extends State<SignupPage> {
       initialValue: '',
       decoration: InputDecoration(
         hintText: 'Gender',
+        labelText: 'Gender',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 
@@ -89,8 +95,9 @@ class _SignupPageState extends State<SignupPage> {
       initialValue: '',
       decoration: InputDecoration(
         hintText: 'Country',
+        labelText: 'Country',
         contentPadding: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 10.0),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(32.0)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
       ),
     );
 
